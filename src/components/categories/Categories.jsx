@@ -22,6 +22,12 @@ const Categories = () => {
         <Link to="greengrocery" className="btn btn-success">
           Sebze / Meyveler
         </Link>
+        <Link to="fast" className="btn btn-success">
+          Atıştırmalıklar
+        </Link>
+        <Link to="oil" className="btn btn-success">
+          Zeytinyağı
+        </Link>
         <Link to="new" className="btn btn-success">
           Yeni Ürünler
         </Link>
