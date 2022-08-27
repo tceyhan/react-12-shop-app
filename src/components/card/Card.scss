@@ -2,12 +2,15 @@
 // bütün sass stillendirmeleri style.scss de toplandı, bu yüzden burada sadece onu import ettik
 .container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-wrap: wrap; 
   text-align: center;
+  justify-content: center;
   gap: 2rem;
   margin-top: 2rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
   margin-bottom: 4rem;
+  background-color: $pudra;
 
   .card {
     max-width: 400px;
@@ -16,6 +19,7 @@
     box-shadow: 5px 5px 5px 2px rgba(0, 0, 0, 0.3);
     width: 30%;
     padding: 5px;
+    background-color: $lightPink;
     
     img {
       width: 50%;
@@ -28,6 +32,11 @@ color:$acıkkırmızı;
 }
 h2{
 color:$kırmızı;
+}
+h3{
+color:$darkGreen;
+text-decoration:line-through;
+
 }
 h4{
  color:$koyukırmızı

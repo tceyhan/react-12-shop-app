@@ -5,8 +5,9 @@
  &--{
 
  &small{
-  background-color:$darkestGreen;
+  background-color:$kırmızı;
   padding:5px;
+  
  }
  &large{
   background-color:$darkGreen;
@@ -15,7 +16,7 @@
  }
  }
 button{
-  border-radius: 5px;
+  border-radius: 100%;
   color:white;
   margin-top:5px;
 }

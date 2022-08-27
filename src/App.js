@@ -1,9 +1,12 @@
+import Card from "./components/card/Card";
+import data from "./data";
 
 function App() {
   return (
-    <div className="App">
-      <h1>shop-app</h1>
-    </div>
+    <>
+      <h1>shop-app </h1>
+      <Card veri={data}/>
+    </>
   );
 }
 
