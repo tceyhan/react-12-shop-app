@@ -1,0 +1,26 @@
+@charset "UTF-8";
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*bunu adobe color dan aldım*/
+/*bunu adobe color dan aldım*/
+.card--small {
+  background-color: #A80000;
+  padding: 5px;
+}
+.card--large {
+  background-color: #90ab6a;
+  padding: 5px 10px;
+  margin-left: 5px;
+}
+.card button {
+  border-radius: 100%;
+  color: white;
+  margin-top: 5px;
+}
+.card button:hover {
+  background-color: blueviolet;
+}/*# sourceMappingURL=style.css.map */

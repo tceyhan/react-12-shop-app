@@ -1,0 +1,67 @@
+@charset "UTF-8";
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*bunu adobe color dan aldım*/
+/*bunu adobe color dan aldım*/
+.card--small {
+  background-color: #A80000;
+  padding: 5px;
+}
+.card--large {
+  background-color: #90ab6a;
+  padding: 5px 10px;
+  margin-left: 5px;
+}
+.card button {
+  border-radius: 100%;
+  color: white;
+  margin-top: 5px;
+}
+.card button:hover {
+  background-color: blueviolet;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 2rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  margin-bottom: 4rem;
+  background-color: #f1e7e1;
+}
+.container .card {
+  max-width: 400px;
+  min-width: 200px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px 2px rgba(0, 0, 0, 0.3);
+  width: 30%;
+  padding: 5px;
+  background-color: #e3c1c9;
+}
+.container .card img {
+  width: 50%;
+  box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.329);
+  margin-top: 10px;
+}
+.container .card h1 {
+  color: #CF0000;
+}
+.container .card h2 {
+  color: #A80000;
+}
+.container .card h3 {
+  color: #90ab6a;
+  text-decoration: line-through;
+}
+.container .card h4 {
+  color: #820000;
+}/*# sourceMappingURL=Card.css.map */

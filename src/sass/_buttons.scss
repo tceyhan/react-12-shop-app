@@ -19,6 +19,9 @@ button{
   border-radius: 100%;
   color:white;
   margin-top:5px;
+  &:hover{
+    background-color: blueviolet;
+  }
 }
 
 

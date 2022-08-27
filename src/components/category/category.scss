@@ -1,0 +1,23 @@
+@import "../../sass/style";
+
+.category{
+    display: flex;
+    margin: 1rem 1rem 1rem 0rem;
+    .small-device{
+        width: 350px;
+        margin-right: 20px;
+    }    
+}
+
+
+ /* X-Small devices (portrait phones, less than 576px) */
+ @media (max-width: 575.98px) { 
+    .category{
+        display: flex;
+        flex-direction: column;
+        .small-device {
+            width: 300px;
+        }
+    }
+ 
+}

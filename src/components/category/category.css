@@ -1,0 +1,46 @@
+@charset "UTF-8";
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*bunu adobe color dan aldım*/
+/*bunu adobe color dan aldım*/
+.card--small {
+  background-color: #A80000;
+  padding: 5px;
+}
+.card--large {
+  background-color: #90ab6a;
+  padding: 5px 10px;
+  margin-left: 5px;
+}
+.card button {
+  border-radius: 100%;
+  color: white;
+  margin-top: 5px;
+}
+.card button:hover {
+  background-color: blueviolet;
+}
+
+.category {
+  display: flex;
+  margin: 1rem 1rem 1rem 0rem;
+}
+.category .small-device {
+  width: 350px;
+  margin-right: 20px;
+}
+
+/* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .category {
+    display: flex;
+    flex-direction: column;
+  }
+  .category .small-device {
+    width: 300px;
+  }
+}/*# sourceMappingURL=category.css.map */
