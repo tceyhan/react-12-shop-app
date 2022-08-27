@@ -1,7 +1,9 @@
+
 import "./Card.scss";
 
 const Card = ({ veri }) => {
-  console.log(veri);
+
+  // console.log(veri);
   //  {veri}= bu yazım verinin eşitinde ne varsa o demek yani App.js deki eşiti {data}. {data} nın {data}= bu yazım datanın eşiti demek yani object=dizinin elemanları
   return (
     <div className="container">
@@ -17,10 +19,11 @@ const Card = ({ veri }) => {
             <h4>{weight}</h4>
             <h3 className="prev-price"> {prev_price}</h3>
             <h2> {price}</h2>
+          
             
 
-            <button className="card--small">+</button>
-            <button className="card--large">-</button>
+            <button className="card--small">SATIN AL</button>
+           
           </div>
         );
       })}
