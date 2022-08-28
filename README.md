@@ -1,1 +1,1 @@
-# link: https://react-12-shop-app.netlify.app/breakfast
+# link: https://react-12-shop-app.netlify.app
