@@ -12,6 +12,18 @@
     padding: 5px;
     margin: 10px;
     background-color: $acıkpudra;
+    .prev-price{
+      text-decoration: line-through;
+    }
+    .card-link{
+      visibility:hidden;
+      
+    }
+    &:hover{
+      .card-link{
+        visibility: inherit;
+      }
+    }
 
     img {
       width: 60%;     

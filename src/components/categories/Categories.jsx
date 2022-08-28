@@ -31,6 +31,9 @@ const Categories = () => {
         </Link>
         
       </div>
+      <div>
+        
+      </div>
       <div className="selectmenu">
         <SelectMenu />
       </div>

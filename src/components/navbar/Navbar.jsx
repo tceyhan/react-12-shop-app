@@ -46,8 +46,7 @@ const Navbar = () => {
             
 
             <li className="nav-item">
-              <NavLink
-                style={({ isActive }) => ({ color: isActive && "red" })}
+              <NavLink                
                 to="/"
                 className="nav-link"
                 aria-current="page"
@@ -58,8 +57,7 @@ const Navbar = () => {
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink
-                style={({ isActive }) => ({ color: isActive && "red" })}
+              <NavLink                
                 to="/cart"
                 className="nav-link"
                 aria-current="page"
@@ -70,8 +68,7 @@ const Navbar = () => {
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink
-                style={({ isActive }) => ({ color: isActive && "red" })}
+              <NavLink                
                 to="/favourite"
                 className="nav-link"
                 aria-current="page"
@@ -83,8 +80,7 @@ const Navbar = () => {
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink
-                style={({ isActive }) => ({ color: isActive && "red" })}
+              <NavLink                
                 to="/login"
                 className="nav-link"
                 aria-current="page"
