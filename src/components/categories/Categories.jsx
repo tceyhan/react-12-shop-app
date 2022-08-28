@@ -12,13 +12,14 @@ const Categories = () => {
           KAHVALTILIK
         </Link>
         <Link to="organicfruits" className="btn organicfruits uppercase">
-          ORGANİK ÜRÜN
+          ORGANİK<br/>ÜRÜN
         </Link>
         <Link to="dry-food" className="btn dry-food">
-          KURU GIDA
+          KURU<br/>GIDA
         </Link>
         <Link to="greengrocery" className="btn greengrocery">
-          SEBZE & MEYVE
+          SEBZE<br/>&<br/>
+          MEYVE
         </Link>
         <Link to="fast" className="btn fast">
           ATIŞTIRMALIK
@@ -27,7 +28,7 @@ const Categories = () => {
           ZEYTİNYAĞI
         </Link>
         <Link to="new" className="btn new">
-          YENİ ÜRÜNLER
+          YENİ<br/>ÜRÜNLER
         </Link>
       </div>
       <div className="selectmenu">
