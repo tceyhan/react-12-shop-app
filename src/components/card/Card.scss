@@ -1,50 +1,21 @@
 @import "../../scss/variables";
 
-.container {
-  display: flex;
-  flex-wrap: wrap;
-  text-align: center;
-  align-items: center;
-  justify-content: space-between;
-  gap: 2rem;
-  margin: 2rem;
-  background-color: $My-Color-Theme-4-hex;
-
   .card {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
-    max-width: 400px;
-    min-width: 200px;
+    text-align: center;
+    flex-direction: column;   
     border-radius: 5px;
     box-shadow: 5px 5px 5px 2px rgba(0, 0, 0, 0.3);
-    width:100%;
+    width:18rem;
     padding: 5px;
-    background-color: $My-Color-Theme-2-hex;
+    margin: 10px;
+    background-color: $acıkpudra;
 
     img {
-      width: 50%;     
+      width: 60%;     
       box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.329);
-      margin-top: 10px;
-    }
-
-    h1 {
-      color: $acıkkırmızı;
-    }
-
-    h2 {
-      color: $kırmızı;
-    }
-
-    h3 {
-      color: $darkGreen;
-      text-decoration: line-through;
-
-    }
-
-    h4 {
-      color: $koyukırmızı
+     
     }
   }
-}

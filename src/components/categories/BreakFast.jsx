@@ -5,7 +5,7 @@ import Card from '../card/Card';
 const BreakFast = () => {
  
   return (
-    <div className="container">       
+    <div className="category">            
       {data.map((product) => { return <Card veri={product} />})}
     </div>
   )

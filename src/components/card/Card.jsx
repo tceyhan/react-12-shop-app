@@ -1,21 +1,36 @@
 import "./Card.scss";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const Card = ({ veri }) => {
   console.log(veri);
   const navigate = useNavigate();
-  const { id, product_name, prev_price, price, img, weight } = veri;
+  const { id, product_name, prev_price, price, img, weight, description } =
+    veri;
 
-  return (   
-      <div className="card" onClick={() => navigate(`products/${id}`, {state:"detail"})}>
-        <img src={img} alt={product_name} />
-        <h1>{product_name}</h1>
-        <h4>{weight}</h4>
-        <h3 className="prev-price"> {prev_price}</h3>
-        <h2> {price}</h2>
-        <button className="card--small">SATIN AL</button>
+  return (
+    <div
+      class="card"
+      onClick={() => navigate(`products/${id}`, { state: "detail" })}
+    >
+      <img src={img} class="card-img-top" alt={product_name} />
+      <div class="card-body">
+        <h5 class="card-title">{product_name}</h5>
+        {/* <p class="card-text">{description}</p> */}
       </div>
-    
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">{weight}</li>
+        <li class="list-group-item">{prev_price}</li>
+        <li class="list-group-item">{price}</li>
+      </ul>
+      <div class="card-body">
+        <Link to="/" class="card-link">
+          Favorilere Ekle
+        </Link>
+        <Link to="/" class="card-link">
+          Sepete Ekle
+        </Link>
+      </div>
+    </div>
   );
 };
 
