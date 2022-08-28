@@ -12,23 +12,23 @@ const Categories = () => {
           <img src="../../assets/images/catagory_link_picture/kahvaltılık.jpg" alt="" />          
           <p>KAHVALTILIK</p>
         </Link>
-        <Link to="organicfruits" className="btn organicfruits">
-          Organik Ürünler
+        <Link to="organicfruits" className="btn organicfruits uppercase">
+          ORGANİK ÜRÜN
         </Link>
         <Link to="dry-food" className="btn dry-food">
-          Kuru Gıda
+          KURU GIDA
         </Link>
         <Link to="greengrocery" className="btn greengrocery">
-          Sebze / Meyveler
+          SEBZE & MEYVE
         </Link>
         <Link to="fast" className="btn fast">
-          Atıştırmalıklar
+          ATIŞTIRMALIK
         </Link>
         <Link to="oil" className="btn oil">
-          Zeytinyağı
+          ZEYTİNYAĞI
         </Link>
         <Link to="new" className="btn new">
-          Yeni Ürünler
+          YENİ ÜRÜNLER
         </Link>
       </div>
       <div className="selectmenu">
