@@ -1,34 +1,46 @@
 @import "../../scss/variables";
 
-.footer{
+.footer {
     height: 250px;
-    display: flex;  
+    display: flex;
     justify-content: space-around;
     // align-items: center;
-    background-color:$My-Color-Theme-3-hex;
-    padding-top: 10px;  
+    background-color: $My-Color-Theme-3-hex;
+    padding-top: 10px;
 
-    
-    .list{
+
+    .list {
         display: flex;
         flex-direction: column;
         list-style-type: none;
+
+        li {
+            color: $darkestGreen;
+
+            &:hover {
+                background-color: $pudra;
+            }
+        }
     }
-   
-    .footer-headtext{
+
+
+    .footer-headtext {
         text-align: center;
         font-size: larger;
-        text-decoration: underline;
-    color:$darkestGreen;
-    ;
-   
-}
-.social-icons{
-    margin-right: 10px;
+        font-weight: bolder;
+        // text-decoration: underline;
+        color: $darkestGreen;
+        ;
 
-}
-.barkod{
-    margin-bottom: 10px;
-}
+    }
+
+    .social-icons {
+        margin-right: 10px;
+
+    }
+
+    .barkod {
+        margin-bottom: 10px;
+    }
 
 }

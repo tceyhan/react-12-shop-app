@@ -8,7 +8,8 @@ const Navbar = () => {
     <nav className="navbar fixed-top navbar-expand-md">
       <div className="container-fluid">
         <Link to="/" className="navbar-brand">
-          <img className="w-25" src={logo} alt="" />
+          <img className="logo" src={logo} alt="" />
+          <span className="navbar-brand m-lg-1">Online Shop</span>
         </Link>
         <button
           className="navbar-toggler"
