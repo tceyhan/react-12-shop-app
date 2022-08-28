@@ -7,7 +7,7 @@ const Categories = () => {
   return (
     <div className="home">
       <div className="d-flex justify-content-center">
-        <Link to="breakfast" className="btn btn-primary">
+        <Link to="breakfast" className="btn btn-success">
           Kahvaltılık
         </Link>
         <Link to="organicfruits" className="btn btn-warning">
@@ -19,13 +19,13 @@ const Categories = () => {
         <Link to="greengrocery" className="btn btn-success">
           Sebze / Meyveler
         </Link>
-        <Link to="fast" className="btn btn-success">
+        <Link to="fast" className="btn btn-warning">
           Atıştırmalıklar
         </Link>
-        <Link to="oil" className="btn btn-success">
+        <Link to="oil" className="btn btn-danger">
           Zeytinyağı
         </Link>
-        <Link to="new" className="btn btn-success">
+        <Link to="new" className="btn btn-primary">
           Yeni Ürünler
         </Link>
       </div>

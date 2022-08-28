@@ -18,8 +18,7 @@ import Fast from "./components/categories/Fast";
 // card
 import Card from "./components/card/Card";
 import CardDetail from "./components/card/CardDetail";
-// other
-import Contact from "./components/Contact";
+
 
 
 
@@ -44,7 +43,7 @@ function App() {
               <Route path="dry-food" element={<DryFood />} />
               <Route path="greengrocery" element={<GreenGrocery />} />
             </Route>
-            <Route path="/contact" element={<Contact />} />
+          
             <Route path="*" element={<Navigate to="/" />} />
           </Routes>
           <Footer />
