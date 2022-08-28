@@ -3,9 +3,13 @@
 .category{
     display: flex;
     margin: 1rem 1rem 1rem 1rem;
-    .small-device{
-        width: 350px;
-        margin-right: 20px;
+    .form-select{
+        background-color:$pudra;
+    }
+    .select-menu{
+        width: 200px;
+        margin-right: 20px;        
+      
     }    
 }
 

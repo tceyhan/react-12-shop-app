@@ -1,7 +1,8 @@
 @import "../../scss/variables";
 
 .footer {
-    height: 250px;
+    height:12rem;
+    font-size: smaller;
     display: flex;
     justify-content: space-around;
     // align-items: center;
@@ -22,6 +23,7 @@
             }
         }
     }
+  
 
 
     .footer-headtext {

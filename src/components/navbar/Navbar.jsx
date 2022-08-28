@@ -8,20 +8,9 @@ const Navbar = () => {
     <nav className="navbar fixed-top navbar-expand-md">
       <div className="container-fluid">
         <Link to="/" className="navbar-brand">
-          <img className="logo" src={logo} alt="" />
-          <span className="navbar-brand m-lg-1">Online Shop</span>
+          <img className="logo" src={logo} alt="" />          
         </Link>
-        <button
-          className="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-        >
-          <span className="navbar-toggler-icon"></span>
-        </button>
-
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <div className="input-group flex-nowrap">
+        <div className="input-group flex-nowrap">
             <span className="input-group-text" id="addon-wrapping">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -42,6 +31,17 @@ const Navbar = () => {
               aria-describedby="addon-wrapping"
             />
           </div>
+        <button
+          className="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+        >
+          <span className="navbar-toggler-icon"></span>
+        </button>
+
+        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+          
           <ul className="navbar-nav ms-auto mb-2 me-3 mb-lg-0">
             
 

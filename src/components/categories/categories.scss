@@ -4,6 +4,34 @@
     margin-top: 4rem;
     padding: 1rem;
     background-color:$pudra ;
+    .btn{
+        display: flex;
+        color: #fff;
+        margin: 5px;
+        height: 6rem;       
+        align-items: center;
+    }
+    .breakfast{
+       background-color:$kahvaltılık;       
+    }
+    .organicfruits{
+        background-color: $organik-ürünler;
+    }
+    .dry-food{
+        background-color: $kurugıda;
+    }
+    .greengrocery{
+        background-color: $sebze-meyve;
+    }
+    .fast{
+        background-color: $atıştırmalık;
+    }
+    .oil{
+        background-color: $zeytinyağı;
+    }
+    .new{
+        background-color: $yeni-ürünler;
+    }
 }
 .outlet{
     display: flex;
