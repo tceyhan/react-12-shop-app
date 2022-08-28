@@ -1,19 +1,16 @@
 import React from "react";
 import { Link, Outlet } from "react-router-dom";
-import Search from "../main/search/Search";
+import SelectMenu from "../main/selectmenu/SelectMenu";
+import "./categories.scss";
 
 const Categories = () => {
   return (
-    <div className="container flex-column mt-5">
-      <div>
-        <h1 className="mt-5">Kategoriler</h1>
-      </div>
-
-      <div className="d-flex justify-content-center m-1">
+    <div>
+      <div className="d-flex justify-content-center">
         <Link to="breakfast" className="btn btn-primary">
           Kahvaltılık
         </Link>
-        <Link to="organic" className="btn btn-warning">
+        <Link to="organicfruits" className="btn btn-warning">
           Organik Ürünler
         </Link>
         <Link to="dry-food" className="btn btn-danger">
@@ -32,10 +29,10 @@ const Categories = () => {
           Yeni Ürünler
         </Link>
       </div>
-      <div>
-        <Search/>
+      <div className="selectmenu">
+        <SelectMenu />
       </div>
-      <div>
+      <div className="outlet">
         <Outlet />
       </div>
     </div>

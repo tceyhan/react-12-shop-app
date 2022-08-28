@@ -5,7 +5,7 @@ import logo from "../../assets/logo.png";
 
 const Navbar = () => {
   return (
-    <nav className="navbar fixed-top navbar-expand-md bg-light">
+    <nav className="navbar fixed-top navbar-expand-md">
       <div className="container-fluid">
         <Link to="/" className="navbar-brand">
           <img className="w-25" src={logo} alt="" />
@@ -47,7 +47,7 @@ const Navbar = () => {
             <li className="nav-item">
               <NavLink
                 style={({ isActive }) => ({ color: isActive && "red" })}
-                to="/categories"
+                to="/"
                 className="nav-link"
                 aria-current="page"
               >

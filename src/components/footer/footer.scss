@@ -1,0 +1,29 @@
+@import "../../scss/variables";
+
+.footer{
+    height: 250px;
+    display: flex;  
+    justify-content: space-around;
+    // align-items: center;
+    background-color:$My-Color-Theme-3-hex;  
+
+    
+    .list{
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+    }
+   
+    .footer-headtext{
+        text-align: center;
+        font-size: larger;
+        text-decoration: underline;
+    color:$darkestGreen;
+    ;
+   
+}
+.social-icons{
+    margin-right: 10px;
+}
+
+}

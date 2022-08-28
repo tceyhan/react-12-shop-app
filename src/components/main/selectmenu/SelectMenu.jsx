@@ -1,4 +1,4 @@
-import "./category.scss";
+import "./selectmenu.scss";
 
 const Category = () => {
 
