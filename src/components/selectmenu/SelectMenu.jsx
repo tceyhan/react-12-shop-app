@@ -22,7 +22,9 @@ const Category = () => {
           className="form-select form-select-md mb-3"
           aria-label=".form-select-lg example"
         >
-          <option className="fw-bold" selected disabled>Gramaj</option>
+          <option className="fw-bold" selected disabled>
+            Gramaj
+          </option>
           <option className="fw-bold" value="1">
             100gr
           </option>
@@ -37,12 +39,17 @@ const Category = () => {
           </option>
         </select>
       </div>
-      <div className="form-check small-device">
-  <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-  <label className="form-check-label" htmlFor="flexCheckDefault">
-    Tükenenleri Gösterme
-  </label>
-</div>
+      <div className="form-check select-menu"> 
+        <input
+          className="form-check-input"
+          type="checkbox"
+          defaultValue="empty"
+          id="flexCheckDefault"
+        />
+        <label className="form-check-label" htmlFor="flexCheckDefault">
+          Tükenenleri Gösterme
+        </label>
+      </div>
     </div>
   );
 };

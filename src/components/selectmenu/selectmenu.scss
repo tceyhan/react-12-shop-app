@@ -3,6 +3,7 @@
 .category{
     display: flex;
     margin: 1rem 1rem 1rem 1rem;
+    
     .form-select{
         background-color:$pudra;
     }
@@ -10,7 +11,13 @@
         width: 200px;
         margin-right: 20px;        
       
-    }    
+    }
+    .form-check-input{
+        margin-right: 5px;
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+     
 }
 
 
