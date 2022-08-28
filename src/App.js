@@ -1,20 +1,27 @@
-import Card from "./components/main/card/Card";
-// import Category from "./components/main/category/Category";
-// import data from "./helpers/data";
-import Navbar from "./components/navbar/Navbar.jsx";
+// scss 
 import "../src/scss/main.scss";
+// react required
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+
+// components
+import Navbar from "./components/navbar/Navbar.jsx";
 import Footer from "./components/footer/Footer";
+// categories
 import Categories from "./components/categories/Categories";
 import BreakFast from "./components/categories/BreakFast";
 import OrganicFruits from "./components/categories/OrganicFruits";
 import NewProduct from "./components/categories/NewProduct";
 import DryFood from "./components/categories/DryFood";
 import GreenGrocery from "./components/categories/GreenGrocery";
-import Contact from "./components/Contact";
-import CardDetail from "./components/main/card/CardDetail";
 import Oil from "./components/categories/Oil";
 import Fast from "./components/categories/Fast";
+// card
+import Card from "./components/card/Card";
+import CardDetail from "./components/card/CardDetail";
+// other
+import Contact from "./components/Contact";
+
+
 
 function App() {
   return (

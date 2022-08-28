@@ -1,11 +1,11 @@
 import React from "react";
 import { Link, Outlet } from "react-router-dom";
-import SelectMenu from "../main/selectmenu/SelectMenu";
+import SelectMenu from "../selectmenu/SelectMenu";
 import "./categories.scss";
 
 const Categories = () => {
   return (
-    <div>
+    <div className="home">
       <div className="d-flex justify-content-center">
         <Link to="breakfast" className="btn btn-primary">
           Kahvaltılık

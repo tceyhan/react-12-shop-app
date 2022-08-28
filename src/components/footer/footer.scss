@@ -5,7 +5,8 @@
     display: flex;  
     justify-content: space-around;
     // align-items: center;
-    background-color:$My-Color-Theme-3-hex;  
+    background-color:$My-Color-Theme-3-hex;
+    padding-top: 10px;  
 
     
     .list{
@@ -24,6 +25,10 @@
 }
 .social-icons{
     margin-right: 10px;
+
+}
+.barkod{
+    margin-bottom: 10px;
 }
 
 }
