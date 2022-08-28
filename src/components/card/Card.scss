@@ -1,6 +1,5 @@
 @import "../../scss/variables";
 
-// bütün sass stillendirmeleri style.scss de toplandı, bu yüzden burada sadece onu import ettik
 .container {
   display: flex;
   flex-wrap: wrap;
@@ -25,8 +24,7 @@
     background-color: $My-Color-Theme-2-hex;
 
     img {
-      width: 50%;
-      // border-radius: 80px;
+      width: 50%;     
       box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.329);
       margin-top: 10px;
     }
