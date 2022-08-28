@@ -1,4 +1,4 @@
-import "./Card.scss";
+import "./card.scss";
 import { Link, useNavigate } from "react-router-dom";
 
 const Card = ({ veri }) => {
@@ -10,12 +10,12 @@ const Card = ({ veri }) => {
   return (
     <div
       class="card"
-      onClick={() => navigate(`/products/${id}`, { state: "detail" })}
+      onClick={() => navigate(`details/${id}`, { state: {veri} })}
     >
       <img src={img} class="card-img-top" alt={product_name} />
       <div class="card-body">
         <h5 class="card-title">{product_name}</h5>
-        {/* <p class="card-text">{description}</p> */}
+        <p class="card-text">{description}</p>
       </div>
       <ul class="list-group list-group-flush">
         <li class="list-group-item">{weight}</li>

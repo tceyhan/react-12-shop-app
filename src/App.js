@@ -18,36 +18,31 @@ import Fast from "./components/categories/Fast";
 // card
 import Card from "./components/card/Card";
 import CardDetail from "./components/card/CardDetail";
+import Checkout from "./components/checkout/Checkout";
 
 function App() {
   return (
-    <>
-      <>
-        <BrowserRouter>
-          <Navbar />
-          <Routes>
-            {/* Nested Route */}
-            <Route path="/" element={<Categories />}>
-              <Route path="products" element={<Card />} />
-              <Route path="products/:id" element={<CardDetail />} />
-              <Route index element={<BreakFast />} />
-              <Route path="breakfast" element={<BreakFast />} />
-              <Route path="organicfruits" element={<OrganicFruits />} />
-              <Route path="fast" element={<Fast />} />
-              <Route path="oil" element={<Oil />} />
-              <Route path="new" element={<NewProduct />} />
-              <Route path="dry-food" element={<DryFood />} />
-              <Route path="greengrocery" element={<GreenGrocery />} />
-            </Route>
-            <Route path="*" element={<Navigate to="/" />} />
-          </Routes>
-          <Footer />
-        </BrowserRouter>
-      </>
-
-      {/* <Category/> */}
-      {/* <Card veri={data}/> */}
-    </>
+    <BrowserRouter>
+      <Navbar />
+      <Routes>
+        {/* Nested Route */}
+        <Route path="/" element={<Categories />}>
+          <Route path="products" element={<Card />} />
+          <Route path="details/:id" element={<CardDetail />} />
+          <Route path="checkout" element={<Checkout />} />
+          <Route index element={<BreakFast />} />
+          <Route path="breakfast" element={<BreakFast />} />
+          <Route path="organicfruits" element={<OrganicFruits />} />
+          <Route path="fast" element={<Fast />} />
+          <Route path="oil" element={<Oil />} />
+          <Route path="new" element={<NewProduct />} />
+          <Route path="dry-food" element={<DryFood />} />
+          <Route path="greengrocery" element={<GreenGrocery />} />
+        </Route>
+        <Route path="*" element={<Navigate to="/" />} />
+      </Routes>
+      <Footer />
+    </BrowserRouter>
   );
 }
 
