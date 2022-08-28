@@ -1,14 +1,13 @@
 @import "../../scss/variables";
 
 .footer {
-    height:12rem;
+    height: 12rem;
     font-size: smaller;
     display: flex;
     justify-content: space-around;
     // align-items: center;
     background-color: $My-Color-Theme-3-hex;
     padding-top: 10px;
-
 
     .list {
         display: flex;
@@ -23,8 +22,6 @@
             }
         }
     }
-  
-
 
     .footer-headtext {
         text-align: center;
@@ -33,7 +30,6 @@
         // text-decoration: underline;
         color: $darkestGreen;
         ;
-
     }
 
     .social-icons {
@@ -43,6 +39,7 @@
 
     .barkod {
         margin-bottom: 10px;
+
     }
 
 }

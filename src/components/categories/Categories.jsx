@@ -6,7 +6,7 @@ import "./categories.scss";
 const Categories = () => {
   return (
     <div className="home">
-      <div className="d-flex justify-content-center">        
+      <div className="d-flex justify-content-center buttons">        
         <Link to="breakfast" className="btn breakfast">                 
           KAHVALTILIK
         </Link>

@@ -1,15 +1,32 @@
 @import "../../scss/variables";
 
-.navbar{
-    background-color:$koyupudra;
-    height: 5rem;    
-    .logo{
+.navbar {
+    background-color: $koyupudra;
+    height: 5rem;
+
+    .logo {
         margin-top: 1rem;
         border-radius: 50%;
-        width: 50%;    
+        width: 50%;
     }
-    .form-control{
-        background-color:$My-Color-Theme-6-hex ;
-       
+
+    .form-control {
+        background-color: $My-Color-Theme-6-hex ;
+
+    }
+
+    @media (max-width: 991.98px) {
+
+        background-color: $lightGreen;
+
+        .logo {
+            width: 40%;
+            align-items: center;
+
+        }
+
+        .input-group {
+            display: none;
+        }
     }
 }

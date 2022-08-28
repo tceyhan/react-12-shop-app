@@ -8,6 +8,16 @@
     margin-top: 4rem;
     padding: 1rem;
     background-color: $pudra ;
+    @media (max-width: 991.98px) {
+        .buttons{
+           display: flex;          
+           flex-wrap: wrap;
+            .btn{
+                width: 5rem;
+                font-size: 0.8rem;
+            }
+         }    
+    }
 
     .btn {
         display: flex;
@@ -23,6 +33,7 @@
         -webkit-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
         -moz-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
         box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+        
     }
 
     .breakfast {
