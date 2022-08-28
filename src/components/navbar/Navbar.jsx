@@ -25,7 +25,7 @@ const Navbar = () => {
             </span>
             <input
               type="text"
-              className="form-control w-50"
+              className="form-control"
               placeholder="Marka, Ürün Ara ..."
               aria-label="marka"
               aria-describedby="addon-wrapping"

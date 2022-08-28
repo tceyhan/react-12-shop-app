@@ -2,10 +2,14 @@
 
 .navbar{
     background-color:$My-Color-Theme-4-hex;
-    height: 4rem;
-}
-.logo{
-    margin-top: 2rem;
-    border-radius: 50%;
-    width: 40%;    
+    height: 4rem;    
+    .logo{
+        margin-top: 2rem;
+        border-radius: 50%;
+        width: 40%;    
+    }
+    .form-control{
+        background-color:$My-Color-Theme-6-hex ;
+       
+    }
 }
