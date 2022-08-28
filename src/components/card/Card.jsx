@@ -6,10 +6,10 @@ const Card = ({ veri }) => {
   const navigate = useNavigate();
   const { id, product_name, prev_price, price, img, weight, description } =
     veri;
+ const handleAddCart = () => {
+  navigate("/checkout")
+ }
 
-  const handleAddCart = () => {
-    
-  }
   return (
     <div
       class="card"
@@ -25,7 +25,7 @@ const Card = ({ veri }) => {
         <li class="list-group-item prev-price">{prev_price}</li>
         <li class="list-group-item">{price}</li>
       </ul>
-      <div class="card-body" onClick={() => handleAddCart}>        
+      <div class="card-body" onClick={ handleAddCart}>        
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="40"
