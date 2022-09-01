@@ -1,3 +1,4 @@
+
 import data from "../../helpers/data";
 import Card from "../card/Card";
 import SelectMenu from "../selectmenu/SelectMenu";
@@ -11,7 +12,7 @@ const BreakFast = () => {
           E-Hamal'da Kumbara sistemi var. Yaptığın alışverişlerden Türk Lirası
           biriktir.Kazandığın paralarla tekrar alışveriş yap
         </p>
-      </header>
+      </header>      
       <div className="selectmenu">
         <SelectMenu />
       </div>
@@ -19,10 +20,10 @@ const BreakFast = () => {
         {data.map((product) => (
           <Card veri={product} />
         ))}
-      </main>
+      </main>      
       <footer className="seo">
         <h3>SEO ALANI</h3>
-        <p>
+        <p className="seo-words">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor ipsum
           hic quod iure deserunt ab ad id quidem tempora. Beatae minima neque
           quas eum officia explicabo odio reiciendis porro molestiae id expedita

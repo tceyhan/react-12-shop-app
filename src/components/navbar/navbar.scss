@@ -1,13 +1,26 @@
 @import "../../scss/variables";
-
+.fixed-top{
+    .nav-top{       
+        background-color: white;       
+        border: 1px solid whitesmoke;
+        font-size: smaller;
+        ul{
+            display: flex;            
+            justify-content: center;                       
+        }        
+        .nav-top-link{          
+            margin-right: 10px;
+            list-style-type: none;      
+            }
+        }
+}
 .navbar {
     display: flex;
     background-color: whitesmoke;
     height: 5rem;
     border-bottom: 1px solid;
     border-color: lightgray;
-
-
+    
     .logo {
         margin-top: 1.5rem;
         margin-left: 2rem;

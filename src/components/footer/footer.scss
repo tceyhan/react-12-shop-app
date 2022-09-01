@@ -6,7 +6,7 @@
     display: flex;
     justify-content: space-around;
     // align-items: center;
-    background-color: $My-Color-Theme-3-hex;
+    background-color: whitesmoke;
     padding-top: 10px;
 
     .list {
@@ -16,13 +16,14 @@
 
         li {
             color: $darkestGreen;
+            font-weight: 500;
 
             &:hover {
                 background-color: $pudra;
             }
         }
+      
     }
-
     .footer-headtext {
         text-align: center;
         font-size: larger;
@@ -31,15 +32,27 @@
         color: $darkestGreen;
         ;
     }
-
-    .social-icons {
-        margin-right: 10px;
-
-    }
-
     .barkod {
         margin-bottom: 10px;
-
+    }
+    .phonenumber{
+        color: $darkestGreen;
+        font-weight: 500;
+        font-size: large;
+        margin-bottom: 10px;
     }
 
+    .social-icons {
+        margin-right: 10px;    
+    }
+
+   
+
+}
+
+.copyright{
+    background-color: whitesmoke;
+    text-align: center;
+    border: 1px solid white;
+    font-size: smaller;
 }

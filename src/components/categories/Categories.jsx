@@ -37,9 +37,9 @@ const Categories = () => {
       </div>
 
       {/*  CATEGORY SECTİON */}
-      
-      <div className="outlet">        
-        <Outlet />       
+
+      <div className="outlet"> 
+        <Outlet />
       </div>
     </div>
   );

@@ -5,7 +5,17 @@ import logo from "../../assets/logo.png";
 
 const Navbar = () => {
   return (
-    <nav className="navbar fixed-top navbar-expand-md">
+    <div className="fixed-top">
+    <div className="nav-top">
+      <ul>
+        <li className="nav-top-link">Ürünlerimiz</li>
+        <li className="nav-top-link">Organik Sertifikası</li>
+        <li className="nav-top-link">Fırsatlar Köşesi</li>
+        <li className="nav-top-link">Sipariş Takibi</li>
+      </ul>    
+              
+    </div>
+    <nav className="navbar navbar-expand-md">
       <div className="container-fluid">
         <Link to="/" className="navbar-brand">
           <img className="logo" src={logo} alt="" />
@@ -82,6 +92,8 @@ const Navbar = () => {
         </div>
       </div>
     </nav>
+    </div>
+    
   );
 };
 export default Navbar;
