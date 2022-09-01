@@ -1,24 +1,52 @@
 @import "../../scss/variables";
 
 .navbar {
-    background-color: $koyupudra;
+    display: flex;
+    background-color: whitesmoke;
     height: 5rem;
+    border-bottom: 1px solid;
+    border-color: lightgray;
+
 
     .logo {
-        margin-top: 1rem;
+        margin-top: 1.5rem;
+        margin-left: 2rem;
         border-radius: 50%;
         width: 50%;
     }
 
+    .input-group {
+        display: flex;
+        justify-content: center;
+
+    }
+
+
     .form-control {
-        background-color: $My-Color-Theme-6-hex ;
+        background-color: white;
+        border: 1px solid;
+        border-color: whitesmoke;
+        height: 3rem;
+
+
+
+    }
+
+    .searchInput {
+        // background-color:blueviolet;
+        border-color: blueviolet;
+        margin-left: 4rem;
+        margin-right: 4rem;
+
+    }
+
+    .input-group-text {
+        background-color: white;
+        border-color: whitesmoke;
 
     }
 
     @media (max-width: 991.98px) {
-
-        background-color: $lightGreen;
-
         .logo {
             width: 40%;
             align-items: center;

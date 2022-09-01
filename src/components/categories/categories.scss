@@ -7,16 +7,19 @@
     // justify-content: flex-start;    
     margin-top: 4rem;
     padding: 1rem;
-    background-color: $pudra ;
+    // background-color: $pudra ;
+    background-color:whitesmoke;
+
     @media (max-width: 991.98px) {
-        .buttons{
-           display: flex;          
-           flex-wrap: wrap;
-            .btn{
+        .buttons {
+            display: flex;
+            flex-wrap: wrap;
+
+            .btn {
                 width: 5rem;
                 font-size: 0.8rem;
             }
-         }    
+        }
     }
 
     .btn {
@@ -33,7 +36,7 @@
         -webkit-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
         -moz-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
         box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
-        
+
     }
 
     .breakfast {
@@ -64,12 +67,39 @@
         background-color: $yeni-ürünler;
     }
 
-    .outlet {
-        .category {
+}
+
+
+.outlet {
+    // margin:30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    .category {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .category-header{
+            margin:10px;
+            .category-header-name{
+                color:$darkviolet;
+            }
+        }
+        .category-card {
             display: flex;
-            justify-content: center;
+            align-items: center;
             flex-wrap: wrap;
+
+        }
+        .seo{
+            background-color:$koyukırmızı;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 10px;            
         }
     }
+
 
 }

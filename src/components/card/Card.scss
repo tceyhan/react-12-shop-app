@@ -1,33 +1,63 @@
 @import "../../scss/variables";
 
-  .card {
+.card {
+  display: flex;
+  text-align: center;
+  box-shadow: 5px 5px 5px 2px whitesmoke;
+  width: 20rem;
+  height: 27rem;
+  padding: 5px;
+  margin: 20px;
+  background-color: white;
+
+  .card-img {
+    width: 75%;
+  }
+
+  .list-group,
+  li {
     display: flex;
     align-items: center;
     justify-content: center;
-    text-align: center;
-    flex-direction: column;   
-    border-radius: 5px;
-    box-shadow: 5px 5px 5px 2px rgba(0, 0, 0, 0.3);
-    width:18rem;
-    padding: 5px;
-    margin: 10px;
-    background-color: $acıkpudra;
-    .prev-price{
-      text-decoration: line-through;
-    }
-    .card-link{
-      visibility:hidden;
-      
-    }
-    &:hover{
-      .card-link{
-        visibility: inherit;
-      }
+    padding: 0;
+    border: none;
+  }
+
+  .prev-price {
+    text-decoration: line-through;
+    font-size: smaller;
+  }
+
+  .price {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+  }
+
+  .card-link {
+    display: none;
+  }
+  .card-aside-group{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    
+  }
+
+  &:hover {
+    border-color: $darkviolet;
+
+    .card-title {
+      color: $darkviolet;
     }
 
-    img {
-      width: 75%;     
-      box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.329);
-     
+    .price {
+      color: $darkviolet;
+
+    }
+
+    .card-link {
+      display: inherit;
     }
   }
+}

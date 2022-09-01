@@ -1,11 +1,11 @@
 import "./selectmenu.scss";
 
-const Category = () => {
+const SelectMenu = () => {
   return (
-    <div className="category">
+    <div className="select-group">
       <div className="select-menu">
         <select
-          className="form-select form-select-md mb-2"
+          className="form-select form-select-md"
           aria-label=".form-select-lg example"
         >
           <option className="fw-bold" selected disabled>
@@ -19,7 +19,7 @@ const Category = () => {
       </div>
       <div className="select-menu">
         <select
-          className="form-select form-select-md mb-3"
+          className="form-select form-select-md"
           aria-label=".form-select-lg example"
         >
           <option className="fw-bold" selected disabled>
@@ -54,4 +54,4 @@ const Category = () => {
   );
 };
 
-export default Category;
+export default SelectMenu;

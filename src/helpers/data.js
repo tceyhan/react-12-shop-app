@@ -1,3 +1,10 @@
+import sarelle from "../assets/images/breakfast/sarelle-findik-ezmesi-350gr.jpeg";
+import yulaf_ezmesi from "../assets/images/breakfast/eti-yulaf-ezmesi-350gr.jpg";
+import kasar_peyniri from "../assets/images/breakfast/içim-kasar-peyniri-700gr-1650x1650.jpg";
+import koska_tahin from "../assets/images/breakfast/koska-tahin-300gr.jpg";
+import tat_cevizli_ezme from "../assets/images/breakfast/tat-cevizli-ezme-200gr-1650x1650.jpg";
+
+
 const data = [
   {
     id: 1,
@@ -5,9 +12,9 @@ const data = [
     description:"Sarelle Fındık Ezmesi 350 G",
     prev_price:"90,50 ₺",
     price: "73,90 ₺", 
-    weight: "350gr",
-    // img: "./assets/sarelle-findik-ezmesi-350-gr-542da5-1650x1650.jpg",
-    img: "https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/product/07155775/sarelle-findik-ezmesi-350-gr-542da5-1650x1650.jpg",
+    weight: "350 GR",
+    img: sarelle,
+    // img: "https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/product/07155775/sarelle-findik-ezmesi-350-gr-542da5-1650x1650.jpg",
   },
   {
     id: 2,
@@ -15,8 +22,9 @@ const data = [
     description:"Eti Lifalif İnce Öğütülmüş Yulaf Ezmesi 350 G",
     prev_price:"28,50 ₺",
     price: "23,50 ₺", 
-    weight: "350gr",
-    img: "https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/product/05099191/05099191-4295ee-1650x1650.jpg",
+    weight: "350 GR",
+    img:yulaf_ezmesi,
+    // img: "https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/product/05099191/05099191-4295ee-1650x1650.jpg",
   },
   {
     id: 3,
@@ -24,8 +32,9 @@ const data = [
     description:"İçim Taze Kaşar Peyniri 700 G",
     prev_price:"99,90 ₺",
     price: "89,90 ₺", 
-    weight: "700gr",
-    img: "https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/product/10108647/10108647-b9bf91-1650x1650.jpg",
+    weight: "700 GR",
+    img:kasar_peyniri,
+    // img: "https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/product/10108647/10108647-b9bf91-1650x1650.jpg",
   },
   {
     id: 4,
@@ -33,8 +42,9 @@ const data = [
     description:"Koska Kabuklu Susamdan Tahin 300 G",
     prev_price:"50,50 ₺",
     price: "44,45 ₺", 
-    weight: "300gr",
-    img: "https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/product/07081096/07081096-6c0f64-1650x1650.jpg",
+    weight: "300 GR",
+    img:koska_tahin,
+    // img: "https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/product/07081096/07081096-6c0f64-1650x1650.jpg",
   },
   {
     id: 5,
@@ -42,8 +52,9 @@ const data = [
     description:"Tat Cevizli Ezme 200 G",
     prev_price:"19,55 ₺",
     price: "15,85 ₺", 
-    weight: "350gr",
-    img: "https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/product/16430110/16430110-7c0fd6-1650x1650.jpg",
+    weight: "350 GR",
+    img:tat_cevizli_ezme,
+    // img: "https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/product/16430110/16430110-7c0fd6-1650x1650.jpg",
   },
   {
     id: 6,
@@ -51,9 +62,9 @@ const data = [
     description:"Sarelle Fındık Ezmesi 350 G",
     prev_price:"90,50 ₺",
     price: "73,90 ₺", 
-    weight: "350gr",
-    // img: "./assets/sarelle-findik-ezmesi-350-gr-542da5-1650x1650.jpg",
-    img: "https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/product/07155775/sarelle-findik-ezmesi-350-gr-542da5-1650x1650.jpg",
+    weight: "350 GR",
+    img: sarelle,
+    // img: "https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/product/07155775/sarelle-findik-ezmesi-350-gr-542da5-1650x1650.jpg",
   },
   {
     id: 7,
@@ -61,8 +72,9 @@ const data = [
     description:"Eti Lifalif İnce Öğütülmüş Yulaf Ezmesi 350 G",
     prev_price:"28,50 ₺",
     price: "23,50 ₺", 
-    weight: "350gr",
-    img: "https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/product/05099191/05099191-4295ee-1650x1650.jpg",
+    weight: "350 GR",
+    img:yulaf_ezmesi,
+    // img: "https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/product/05099191/05099191-4295ee-1650x1650.jpg",
   },
   {
     id: 8,
@@ -70,18 +82,19 @@ const data = [
     description:"İçim Taze Kaşar Peyniri 700 G",
     prev_price:"99,90 ₺",
     price: "89,90 ₺", 
-    weight: "700gr",
-    img: "https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/product/10108647/10108647-b9bf91-1650x1650.jpg",
+    weight: "700 GR",
+    img:kasar_peyniri,
+    // img: "https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/product/10108647/10108647-b9bf91-1650x1650.jpg",
   },
   {
     id: 9,
     product_name: "Koska Tahin",
     description:"Koska Kabuklu Susamdan Tahin 300 G",
-    prev_price:"50,50 ₺",    
-    price: "44,45 ₺",
-    // altgr+T ye basarak türk lirası sembölü çıkar 
-    weight: "300gr",
-    img: "https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/product/07081096/07081096-6c0f64-1650x1650.jpg",
+    prev_price:"50,50 ₺",
+    price: "44,45 ₺", 
+    weight: "300 GR",
+    img:koska_tahin,
+    // img: "https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/product/07081096/07081096-6c0f64-1650x1650.jpg",
   },
   {
     id: 10,
@@ -89,9 +102,61 @@ const data = [
     description:"Tat Cevizli Ezme 200 G",
     prev_price:"19,55 ₺",
     price: "15,85 ₺", 
-    weight: "350gr",
-    img: "https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/product/16430110/16430110-7c0fd6-1650x1650.jpg",
+    weight: "350 GR",
+    img:tat_cevizli_ezme,
+    // img: "https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/product/16430110/16430110-7c0fd6-1650x1650.jpg",
   },
+  {
+    id: 11,
+    product_name: "Sarelle Fındık Ezmesi",
+    description:"Sarelle Fındık Ezmesi 350 G",
+    prev_price:"90,50 ₺",
+    price: "73,90 ₺", 
+    weight: "350 GR",
+    img: sarelle,
+    // img: "https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/product/07155775/sarelle-findik-ezmesi-350-gr-542da5-1650x1650.jpg",
+  },
+  {
+    id: 12,
+    product_name: "Eti Yulaf Ezmesi",
+    description:"Eti Lifalif İnce Öğütülmüş Yulaf Ezmesi 350 G",
+    prev_price:"28,50 ₺",
+    price: "23,50 ₺", 
+    weight: "350 GR",
+    img:yulaf_ezmesi,
+    // img: "https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/product/05099191/05099191-4295ee-1650x1650.jpg",
+  },
+  {
+    id: 13,
+    product_name: "İçim Kaşar Peyniri",
+    description:"İçim Taze Kaşar Peyniri 700 G",
+    prev_price:"99,90 ₺",
+    price: "89,90 ₺", 
+    weight: "700 GR",
+    img:kasar_peyniri,
+    // img: "https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/product/10108647/10108647-b9bf91-1650x1650.jpg",
+  },
+  {
+    id: 14,
+    product_name: "Koska Tahin",
+    description:"Koska Kabuklu Susamdan Tahin 300 G",
+    prev_price:"50,50 ₺",
+    price: "44,45 ₺", 
+    weight: "300 GR",
+    img:koska_tahin,
+    // img: "https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/product/07081096/07081096-6c0f64-1650x1650.jpg",
+  },
+  {
+    id: 15,
+    product_name: "Tat Cevizli Ezme",
+    description:"Tat Cevizli Ezme 200 G",
+    prev_price:"19,55 ₺",
+    price: "15,85 ₺", 
+    weight: "350 GR",
+    img:tat_cevizli_ezme,
+    // img: "https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/product/16430110/16430110-7c0fd6-1650x1650.jpg",
+  },
+ 
 ];
 
 export default data;

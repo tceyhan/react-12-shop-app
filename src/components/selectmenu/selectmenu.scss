@@ -1,11 +1,11 @@
 @import "../../scss/variables";
 
-.category{
+.select-group{
     display: flex;
-    margin: 1rem 1rem 1rem 1rem;
+    margin-left: 10px;   
     
     .form-select{
-        background-color:$pudra;
+        background-color:whitesmoke;
     }
     .select-menu{
         width: 200px;
@@ -23,12 +23,9 @@
 
  /* X-Small devices (portrait phones, less than 576px) */
  @media (max-width: 575.98px) { 
-    .category{
+    .select-group{
         display: flex;
-        flex-direction: column;
-        .small-device {
-            width: 300px;
-        }
+        flex-direction: column;     
     }
  
 }

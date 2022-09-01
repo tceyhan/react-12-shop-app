@@ -1,23 +1,26 @@
-
 import { Link, Outlet } from "react-router-dom";
-import SelectMenu from "../selectmenu/SelectMenu";
 import "./categories.scss";
 
 const Categories = () => {
   return (
     <div className="home">
-      <div className="d-flex justify-content-center buttons">        
-        <Link to="breakfast" className="btn breakfast">                 
+      <div className="d-flex justify-content-center buttons">
+        <Link to="breakfast" className="btn breakfast">
           KAHVALTILIK
         </Link>
         <Link to="organicfruits" className="btn organicfruits">
-          ORGANİK<br/>ÜRÜN
+          ORGANİK
+          <br />
+          ÜRÜN
         </Link>
         <Link to="dry-food" className="btn dry-food">
-          KURU<br/>GIDA
+          KURU
+          <br />
+          GIDA
         </Link>
         <Link to="greengrocery" className="btn greengrocery">
-          SEBZE<br/>&<br/>
+          SEBZE
+          <br />&<br />
           MEYVE
         </Link>
         <Link to="fast" className="btn fast">
@@ -27,18 +30,16 @@ const Categories = () => {
           ZEYTİNYAĞI
         </Link>
         <Link to="new" className="btn new">
-          YENİ<br/>ÜRÜNLER
+          YENİ
+          <br />
+          ÜRÜNLER
         </Link>
-        
       </div>
-      <div>
-        
-      </div>
-      <div className="selectmenu">
-        <SelectMenu />
-      </div>
-      <div className="outlet">
-        <Outlet />
+
+      {/*  CATEGORY SECTİON */}
+      
+      <div className="outlet">        
+        <Outlet />       
       </div>
     </div>
   );
