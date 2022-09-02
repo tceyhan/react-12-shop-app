@@ -1,4 +1,4 @@
-import React from 'react'
+import working from "../../../assets/images/working.jpg";
 
 const GreenGrocery = () => {
   return (
@@ -6,7 +6,7 @@ const GreenGrocery = () => {
     <h1 className="header">Sebze & Meyve</h1>
     <img
       className="img-fluid"
-      src="https://www.evimdekiegitim.com/assets/images/yapim.jpg"
+      src={working}
       alt="YAPIM AŞAMASINDA"
     />
   </div>

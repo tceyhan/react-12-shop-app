@@ -1,106 +1,28 @@
 @import "../../scss/variables";
 
 .home {
-    display: flex;
-    flex-direction: column;
-    align-items: center;  
-    margin-top: 6rem;
-    padding: 10px; 
-    background-color:whitesmoke;
-
-    @media (max-width: 991.98px) {
-        .buttons {
-            display: flex;
-            flex-wrap: wrap;
-
-            .btn {
-                width: 5rem;
-                font-size: 0.8rem;
-            }
-        }
-    }
-
-    .btn {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        color: #fff;
-        margin: 5px;
-        height: 5rem;
-        width: 7rem;
-        font-weight: 500;
-
-        -webkit-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
-        -moz-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
-        box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
-
-    }
-
-    .breakfast {
-        background-color: $kahvaltılık;
-    }
-
-    .organicfruits {
-        background-color: $organik-ürünler;
-    }
-
-    .dry-food {
-        background-color: $kurugıda;
-    }
-
-    .greengrocery {
-        background-color: $sebze-meyve;
-    }
-
-    .fast {
-        background-color: $atıştırmalık;
-    }
-
-    .oil {
-        background-color: $zeytinyağı;
-    }
-
-    .new {
-        background-color: $yeni-ürünler;
-    }
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 7rem;
+  padding: 10px;
+  background-color: whitesmoke;
 }
 
-.outlet {  
+.outlet {
+  display: flex;
+  align-items: center;
+
+  .category {
     display: flex;
-    align-items: center;    
+    flex-direction: column;
+    justify-content: center;
+    .selectmenu{
+      display: flex;
+      justify-content: space-between;
+      margin-right: 20px;
+      margin-left: 20px;
 
-    .category {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        .category-header{
-            margin:20px;
-            .category-header-name{
-                color:$darkviolet;
-            }
-        }
-        .category-card {
-            display: flex;
-            align-items: center;
-            flex-wrap: wrap;
-        }
-        .seo{
-            display: flex;
-            justify-content: center;
-            flex-direction: column;
-            align-items: center;                      
-            background-color:white;
-          
-            .seo-words{
-                padding: 5rem;
-                
-            }           
-          
-                           
-        }        
     }
-
-
+  }
 }

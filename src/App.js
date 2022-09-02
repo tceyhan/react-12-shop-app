@@ -8,13 +8,13 @@ import Navbar from "./components/navbar/Navbar.jsx";
 import Footer from "./components/footer/Footer";
 // categories
 import Categories from "./components/categories/Categories";
-import BreakFast from "./components/categories/BreakFast";
-import OrganicFruits from "./components/categories/OrganicFruits";
-import NewProduct from "./components/categories/NewProduct";
-import DryFood from "./components/categories/DryFood";
-import GreenGrocery from "./components/categories/GreenGrocery";
-import Oil from "./components/categories/Oil";
-import Fast from "./components/categories/Fast";
+import BreakFast from "./components/categories/pages/BreakFast";
+import OrganicFruits from "./components/categories/pages/OrganicFruits";
+import NewProduct from "./components/categories/pages/NewProduct";
+import DryFood from "./components/categories/pages/DryFood";
+import GreenGrocery from "./components/categories/pages/GreenGrocery";
+import Oil from "./components/categories/pages/Oil";
+import Fast from "./components/categories/pages/Fast";
 // card
 import Card from "./components/card/Card";
 import CardDetail from "./components/card/CardDetail";

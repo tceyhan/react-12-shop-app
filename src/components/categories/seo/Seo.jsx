@@ -1,27 +1,8 @@
+import "./seo.scss";
 
-import data from "../../helpers/data";
-import Card from "../card/Card";
-import SelectMenu from "../selectmenu/SelectMenu";
-
-const BreakFast = () => {
+const Seo = () => {
   return (
-    <div className="category">
-      <header className="category-header">
-        <h1 className="category-header-name">Kahvaltılık</h1>
-        <p className="category-description">
-          E-Hamal'da Kumbara sistemi var. Yaptığın alışverişlerden Türk Lirası
-          biriktir.Kazandığın paralarla tekrar alışveriş yap
-        </p>
-      </header>      
-      <div className="selectmenu">
-        <SelectMenu />
-      </div>
-      <main className="category-card">
-        {data.map((product) => (
-          <Card veri={product} />
-        ))}
-      </main>      
-      <footer className="seo">
+    <footer className="seo">
         <h3>SEO ALANI</h3>
         <p className="seo-words">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor ipsum
@@ -48,8 +29,7 @@ const BreakFast = () => {
           magnam cum illo saepe veniamadadad
         </p>
       </footer>
-    </div>
-  );
-};
+  )
+}
 
-export default BreakFast;
+export default Seo

@@ -39,7 +39,7 @@ const SelectMenu = () => {
           </option>
         </select>
       </div>
-      <div className="form-check select-menu"> 
+      <div className="form-check select-menu">
         <input
           className="form-check-input"
           type="checkbox"
@@ -50,6 +50,7 @@ const SelectMenu = () => {
           Tükenenleri Gösterme
         </label>
       </div>
+      
     </div>
   );
 };

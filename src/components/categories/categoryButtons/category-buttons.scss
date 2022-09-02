@@ -1,0 +1,59 @@
+@import "../../../scss/variables";
+
+
+.btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    margin: 5px;
+    height: 5rem;
+    width: 7rem;
+    font-weight: 500;
+
+    -webkit-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+    box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+
+}
+
+.breakfast {
+    background-color: $kahvaltılık;
+}
+
+.organicfruits {
+    background-color: $organik-ürünler;
+}
+
+.dry-food {
+    background-color: $kurugıda;
+}
+
+.greengrocery {
+    background-color: $sebze-meyve;
+}
+
+.fast {
+    background-color: $atıştırmalık;
+}
+
+.oil {
+    background-color: $zeytinyağı;
+}
+
+.new {
+    background-color: $yeni-ürünler;
+}
+
+@media (max-width: 991.98px) {
+    .buttons {
+        display: flex;
+        flex-wrap: wrap;
+
+        .btn {
+            width: 5rem;
+            font-size: 0.8rem;
+        }
+    }
+}
