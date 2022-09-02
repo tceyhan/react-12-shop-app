@@ -1,8 +1,9 @@
 import GridMenu from "../gridmenu/GridMenu";
-import SelectMenu from "../selectmenu/SelectMenu";
+import SelectMenu from "../selectMenu/SelectMenu";
 import CardContainers from "../CardContainers/CardContainers";
 import Header from "../categoryHeader/Header";
 import Seo from "../seo/Seo";
+import Pagination from "../../pagination/Pagination";
 
 const BreakFast = () => {
   return (
@@ -15,8 +16,12 @@ const BreakFast = () => {
           <SelectMenu />
           <GridMenu />
         </div>
-        <CardContainers />
+        <CardContainers />      
       </main>
+      <div className="pagination">
+       <Pagination/> 
+      </div>
+      
       <footer>
         <Seo />
       </footer>
