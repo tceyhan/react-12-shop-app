@@ -181,7 +181,7 @@ const Footer = () => {
         </div>
       </div>
     </footer>
-    <div className="copyright">Tüm hakları saklıdır.MAZAKA E-Ticaret paketleri ile hazırlanmıştır</div>
+    {/* <div className="copyright">Tüm hakları saklıdır.MAZAKA E-Ticaret paketleri ile hazırlanmıştır</div> */}
     </>
   );
 };
